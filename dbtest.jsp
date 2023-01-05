@@ -4,9 +4,9 @@
 <%
     	Connection conn=null;
     	try{
-            	String Url="jdbc:mysql://<DB주소>/db";
-            	String Id="<DB유저>";
-            	String Pass="<암호>";
+            	String Url="jdbc:mysql://10.100.31.181/devopsDB";
+            	String Id="user";
+            	String Pass="1234";
  
                 Class.forName("com.mysql.jdbc.Driver");
                 conn=DriverManager.getConnection(Url,Id,Pass);
