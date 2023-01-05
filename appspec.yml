@@ -2,10 +2,8 @@ version: 0.0
 os: linux
 
 files:
-#   - source: /test.jsp
-#     destination: /home/ec2-user/tomcat/webapps/ROOT
-    - source: /index.html
-      destination: /var/www/html
+    - source: /test.jsp
+      destination: /home/ec2-user/tomcat/webapps/ROOT
 
 file_exists_behavior: OVERWRITE
 
